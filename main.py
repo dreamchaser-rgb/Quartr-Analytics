@@ -28,7 +28,7 @@ def main():
 
             pdf_filename = f"{ticker}_10-K_{filing.filing_date}.pdf"
             pdf_path = os.path.join(OUTPUT_DIR, pdf_filename)
-            html_to_pdf(html_bytes, base_url=filing.document_url, output_path=pdf_path)
+            html_to_pdf(html_bytes, pdf_path)
 
             results.append({
                 "ticker": filing.ticker,
