@@ -3,7 +3,7 @@
 # SEC requires a descriptive User-Agent with real contact info on every
 # request. Requests without one get rejected or throttled.
 # -> Replace the email below before running.
-SEC_USER_AGENT = "Quartr Data Automation dataeng@quartr.com"
+SEC_USER_AGENT = "ardraanil2626@gmail.com"
 
 # Ticker -> display name for the companies this assignment asks for.
 COMPANIES = {
